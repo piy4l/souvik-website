@@ -29,7 +29,7 @@ const data = [
     id: 3,
     image: IMG3,
     title: 'Avengers Endgame (Minigame)',
-    github: 'https://github.com/piy4l/Project-on-iGraphics-Avengers-EndGame-',
+    github: 'https://github.com/piy4l/Project-on-iGraphics-Avengers-EndGame',
     demo: 'https://www.youtube.com/watch?v=hcrxWHsU55U'
   },
   {
@@ -57,7 +57,7 @@ const data = [
     id: 7,
     image: IMG7,
     title: 'Smart Entrance & Automated Hand Sanitizer',
-    github: 'https://github.com/piy4l/Smart-Entrance-',
+    github: 'https://github.com/piy4l/Smart-Entrance',
     demo: 'https://www.youtube.com/watch?v=UUf9VUp86s4&list=PLFlOs6fceUIz37uFDMrmQECdMqZQpI1VI&index=3'
   },
   {
