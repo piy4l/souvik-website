@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio-Website/static/css/main.ebdaaaa2.css",
-    "main.js": "/Portfolio-Website/static/js/main.0a2370c5.js",
+    "main.js": "/Portfolio-Website/static/js/main.49dd1044.js",
     "static/media/portfolio9.png": "/Portfolio-Website/static/media/portfolio9.b6e6bdddff52702cc083.png",
     "static/media/portfolio3.jpg": "/Portfolio-Website/static/media/portfolio3.d0d22ba4298f89b343c6.jpg",
     "static/media/mes.png": "/Portfolio-Website/static/media/mes.e380fb9389e701505747.png",
     "static/media/portfolio6.jpg": "/Portfolio-Website/static/media/portfolio6.ca391bcf64a144412744.jpg",
     "static/media/me-about.jpg": "/Portfolio-Website/static/media/me-about.ec126da90612f3ab30ca.jpg",
     "static/media/portfolio2.jpg": "/Portfolio-Website/static/media/portfolio2.e3002d01217d30abefad.jpg",
-    "static/media/cv.pdf": "/Portfolio-Website/static/media/cv.bfa52e7cf058a4661aa4.pdf",
+    "static/media/Souvik_Resume.pdf": "/Portfolio-Website/static/media/Souvik_Resume.bfa52e7cf058a4661aa4.pdf",
     "static/media/portfolio8.jpg": "/Portfolio-Website/static/media/portfolio8.acd4720f349080e9025f.jpg",
     "static/media/portfolio4.jpg": "/Portfolio-Website/static/media/portfolio4.64fa6f2aecd4ec20a366.jpg",
     "static/media/portfolio5.jpg": "/Portfolio-Website/static/media/portfolio5.e7fe2ca2c311a6e8ad50.jpg",
@@ -16,10 +16,10 @@
     "static/media/portfolio1.jpg": "/Portfolio-Website/static/media/portfolio1.7c0786dec43b68ff3f5f.jpg",
     "index.html": "/Portfolio-Website/index.html",
     "main.ebdaaaa2.css.map": "/Portfolio-Website/static/css/main.ebdaaaa2.css.map",
-    "main.0a2370c5.js.map": "/Portfolio-Website/static/js/main.0a2370c5.js.map"
+    "main.49dd1044.js.map": "/Portfolio-Website/static/js/main.49dd1044.js.map"
   },
   "entrypoints": [
     "static/css/main.ebdaaaa2.css",
-    "static/js/main.0a2370c5.js"
+    "static/js/main.49dd1044.js"
   ]
 }
