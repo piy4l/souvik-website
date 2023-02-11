@@ -35,10 +35,10 @@ const About = () => {
               <small>10+ Completed</small>
             </article>
           </div>
-          <p>Here is Souvik, an inquisitive, energetic computer science specialist, skilled in leadership, with a strong foundation in
+          <p>Here is Souvik, an inquisitive, energetic computer science enthusiast, skilled in leadership, with a strong foundation in
             math, logic, and cross-platform coding; seeking to
             leverage solid skills in collaboration, communication, and development as a
-            programmer.
+            software engineer.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
