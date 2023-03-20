@@ -42,8 +42,8 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: 'Handwriting Recognition',
-    github: 'https://github.com/piy4l/ML-Project-Handwriting-Recognition',
+    title: 'Handwritten Sentence Recognition',
+    github: 'https://github.com/piy4l/ML-Project-Handwritten-Sentence-Recognition',
     demo: '#'
   },
   {
@@ -71,8 +71,8 @@ const data = [
     id: 9,
     image: IMG9,
     title: 'Thesis on Intrusion Detection',
-    github: 'https://github.com/piy4l/Thesis-on-Intrusion-Detection-in-Containerized-Environment',
-    demo: 'https://github.com/piy4l/Thesis-on-Intrusion-Detection-in-Containerized-Environment'
+    github: 'https://github.com/piy4l/Thesis',
+    demo: '#'
   }
 
 ]
