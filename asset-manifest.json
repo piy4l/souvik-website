@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.ebdaaaa2.css",
-    "main.js": "/Portfolio-Website/static/js/main.ecda5486.js",
+    "main.css": "/Portfolio-Website/static/css/main.317372c5.css",
+    "main.js": "/Portfolio-Website/static/js/main.db5a5e02.js",
+    "static/media/mes.png": "/Portfolio-Website/static/media/mes.cc0456a3d8b4ca73c3f3.png",
     "static/media/portfolio9.png": "/Portfolio-Website/static/media/portfolio9.b6e6bdddff52702cc083.png",
     "static/media/portfolio3.jpg": "/Portfolio-Website/static/media/portfolio3.d0d22ba4298f89b343c6.jpg",
-    "static/media/mes.png": "/Portfolio-Website/static/media/mes.e380fb9389e701505747.png",
     "static/media/portfolio6.jpg": "/Portfolio-Website/static/media/portfolio6.ca391bcf64a144412744.jpg",
-    "static/media/me-about.jpg": "/Portfolio-Website/static/media/me-about.ec126da90612f3ab30ca.jpg",
     "static/media/portfolio2.jpg": "/Portfolio-Website/static/media/portfolio2.e3002d01217d30abefad.jpg",
-    "static/media/Souvik_Resume.pdf": "/Portfolio-Website/static/media/Souvik_Resume.bfa52e7cf058a4661aa4.pdf",
+    "static/media/SouvikDas_CV.pdf": "/Portfolio-Website/static/media/SouvikDas_CV.1b2f4388f89519767c7b.pdf",
     "static/media/portfolio8.jpg": "/Portfolio-Website/static/media/portfolio8.acd4720f349080e9025f.jpg",
     "static/media/portfolio4.jpg": "/Portfolio-Website/static/media/portfolio4.64fa6f2aecd4ec20a366.jpg",
+    "static/media/avatar3.png": "/Portfolio-Website/static/media/avatar3.ab2fe14859858566cc72.png",
     "static/media/portfolio5.jpg": "/Portfolio-Website/static/media/portfolio5.e7fe2ca2c311a6e8ad50.jpg",
     "static/media/portfolio7.jpg": "/Portfolio-Website/static/media/portfolio7.0f7e61879be1cd240963.jpg",
     "static/media/portfolio1.jpg": "/Portfolio-Website/static/media/portfolio1.7c0786dec43b68ff3f5f.jpg",
+    "static/media/avatar2.jfif": "/Portfolio-Website/static/media/avatar2.1a26b6817e472401f326.jfif",
+    "static/media/avatar1.jfif": "/Portfolio-Website/static/media/avatar1.11bafd945108d1771a84.jfif",
     "index.html": "/Portfolio-Website/index.html",
-    "main.ebdaaaa2.css.map": "/Portfolio-Website/static/css/main.ebdaaaa2.css.map",
-    "main.ecda5486.js.map": "/Portfolio-Website/static/js/main.ecda5486.js.map"
+    "main.317372c5.css.map": "/Portfolio-Website/static/css/main.317372c5.css.map",
+    "main.db5a5e02.js.map": "/Portfolio-Website/static/js/main.db5a5e02.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebdaaaa2.css",
-    "static/js/main.ecda5486.js"
+    "static/css/main.317372c5.css",
+    "static/js/main.db5a5e02.js"
   ]
 }
