@@ -1,110 +1,78 @@
 import React from 'react'
-import './services.css'
 import { BsCheck2 } from 'react-icons/bs'
+import './services.css'
 
 const Services = () => {
   return (
     <section id='services'> 
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>What I've done so far</h5>
+      <h2>Qualifications</h2>
 
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Education</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>B.Sc. in Computer Science and Engineering from
+              Bangladesh University of Engineering and Technology (BUET) [2018-2023]<br></br>
+                - CGPA: 3.85 out of 4.00<br></br>
+                - Graduated with Magna Cum Laude<br></br>
+                - Received Dean’s Award for academic excellence<br></br>
+              </p>   
             </li>
             <li>
               <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Higher Secondary School Certificate (HSC) from
+              Govt. Ananda Mohan College [2017]<br></br>
+                - GPA: 5.00 out of 5.00<br></br>
+              </p>   
             </li>
             <li>
               <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Secondary School Certificate (SSC) <br></br>from
+              Mymensingh Zilla School [2015]<br></br>
+                - GPA: 5.00 out of 5.00<br></br>
+                - Board Talentpool Scholarship<br></br>
+              </p>   
             </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Research Interest</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Artificial Intelligence</p>
             </li>
             <li>
               <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Cybersecurity</p>
             </li>
             <li>
               <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Human-Computer Interaction</p>
             </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Work Experience</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Assistant Programmer (Assistant Director) at Bangladesh Computer Council (BCC) [June 2024 - Present]</p>
             </li>
             <li>
               <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Programmer (Contractual) <br></br>at Grameen Bank <br></br>[June 2023 - June 2024]</p>
             </li>
           </ul>
         </article>

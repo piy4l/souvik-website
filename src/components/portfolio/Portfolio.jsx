@@ -1,5 +1,4 @@
 import React from 'react'
-import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
@@ -9,6 +8,7 @@ import IMG6 from '../../assets/portfolio6.jpg'
 import IMG7 from '../../assets/portfolio7.jpg'
 import IMG8 from '../../assets/portfolio8.jpg'
 import IMG9 from '../../assets/portfolio9.png'
+import './portfolio.css'
 
 const data = [
   {
@@ -80,7 +80,7 @@ const data = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Works</h5>
+      <h5>My Undergraduate Projects</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">

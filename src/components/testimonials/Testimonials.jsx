@@ -1,49 +1,44 @@
 import React from 'react'
+import AVTR1 from '../../assets/avatar1.jfif'
+import AVTR2 from '../../assets/avatar2.jfif'
+import AVTR3 from '../../assets/avatar3.png'
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
 
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react"
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
+import "swiper/css"
+import "swiper/css/pagination"
 
 // import required modules
-import { Pagination } from "swiper";
+import { Pagination } from "swiper"
 
 
 const data = [
 {
   avatar: AVTR1,
-  name: 'Tina Snow',
-  review: 'lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam explicabo eligendi corrupti vitae perspiciatis, voluptatum eveniet culpa, aliquam unde neque iusto ut, vero sed. Pariatur perspiciatis quasi obcaecati totam.'
+  name: 'Dr. Md. Shohrab Hossain',
+  review: 'Professor, Department of Computer Science and Engineering,\n Bangladesh University of Engineering and Technology, Dhaka-1000.\nCell: +8801819250196.\nEmail: mshohrabhossain@cse.buet.ac.bd'
 },
 {
   avatar: AVTR2,
-  name: 'Tina Snow',
-  review: 'lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam explicabo eligendi corrupti vitae perspiciatis, voluptatum eveniet culpa, aliquam unde neque iusto ut, vero sed. Pariatur perspiciatis quasi obcaecati totam.'
+  name: 'Dr. Tanzima Hashem',
+  review: 'Professor, Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, Dhaka-1000. Cell: + 88028623089. Email: tanzimahashem@cse.buet.ac.bd'
 },
 {
   avatar: AVTR3,
-  name: 'Tina Snow',
-  review: 'lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam explicabo eligendi corrupti vitae perspiciatis, voluptatum eveniet culpa, aliquam unde neque iusto ut, vero sed. Pariatur perspiciatis quasi obcaecati totam.'
+  name: 'Dr. Suryadipta Majumdar',
+  review: 'Associate Professor, Concordia Institute for Information Systems Engineering (CIISE), Concordia University, Montréal, Quebec, Canada. Cell: 514-848-2424 ext 8580. Email: suryadipta.majumdar@concordia.ca'
 },
-{
-  avatar: AVTR4,
-  name: 'Tina Snow',
-  review: 'lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam explicabo eligendi corrupti vitae perspiciatis, voluptatum eveniet culpa, aliquam unde neque iusto ut, vero sed. Pariatur perspiciatis quasi obcaecati totam.'
-}
+
 ]
 
 const Testimonials = () => {
   return (
     <section id='testimonials'> 
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>People who can talk about me</h5>
+      <h2>References</h2>
 
       <Swiper className="container testimonials__container"
       // install Swiper modules

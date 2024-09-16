@@ -1,9 +1,6 @@
 import React from 'react'
-import './about.css'
-import ME from '../../assets/me-about.jpg'
 import { FaAward } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
-import { VscFolderLibrary } from 'react-icons/vsc'
+import './about.css'
 
 const About = () => {
   return (
@@ -12,35 +9,45 @@ const About = () => {
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me">
+        {/* <div className="about__me">
           <div className="about__me-image">
             <img src={ME} alt="About Image" />
           </div>
-        </div>
+        </div> */}
         <div className="about__content">
+          
+          <p>Here is Souvik, currently serving as an Assistant Programmer (Assistant Director) at Bangladesh Computer Council (BCC) under ICT Division, Ministry of
+            Posts, Telecommunications and Information Technology, Government of Bangladesh. Previously I worked in Grameen Bank as a programmer.<br></br>
+            I'm currently looking for PhD opportunities. My research interest includes AI, Cybersecurity and HCI. I have expertise in full-stack development and research experience in Cybersecurity. 
+            Along with my official tasks, I'm currently exploring the world of Spatial-Temporal Prediction with Large Language Models under supervision of Dr. Tanzima Hashem (Professor, CSE, BUET).
+          </p>
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <br></br> <br></br>
           <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>5+ Years Teaching</small>
+              <h5>Publications</h5>
+              <br></br>
+              
+              <small> <ul>
+                <li>
+                ▪ Md. Olid Hasan Bhuiyan, Souvik Das, Shafayat Hossain Majumder, Suryadipta Majumdar, and Md. Shohrab Hossain, 
+                <a href="https://www.scitepress.org/Papers/2024/125094/"> "On Detecting Malicious Code Injection by Monitoring Multi-Level Container Activities"</a>, The 14th International Conference 
+                on Cloud Computing and Services Science (CLOSER 2024), Anges, France, 2-4 May, 2024. [An outcome of undergrad research]
+                </li>
+                <li>
+                ▪ MD. Sabbir Hosen Pulok, Anusree Sen, Souvik Das, Farea Farhana Nishita, & MD. Mushfiquzzaman. (2022), 
+                  <a href="https://supplychaininsider.org/ojs/index.php/home/article/view/9"> "MODELING SUSTAINABLE CHALLENGES TO WASTE REDUCTION IN THE FOOD INDUSTRY"</a>, Supply Chain Insider | 
+                  ISSN: 2617-7420 (Print), 2617-7420 (Online), 7(1). [Extracurricular activity]
+                </li>
+                </ul>
+              </small>
+              <br></br>
+
+
             </article>
-            <article className='about__card'>
-              <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>300+ Students</small>
-            </article>
-            <article className='about__card'>
-              <VscFolderLibrary className='about__icon' />
-              <h5>Projects</h5>
-              <small>10+ Completed</small>
-            </article>
+            
           </div>
-          <p>Here is Souvik, an inquisitive, energetic, motivated computer science enthusiast with a
-              good background in math, logic, and coding. Looking to pursue a
-              successful career in a software development company where I can
-              contribute to the delivery of cutting-edge software solutions.
-          </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
