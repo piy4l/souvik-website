@@ -1,17 +1,16 @@
-import React from 'react'
-import './contact.css'
+import emailjs from 'emailjs-com'
+import React, { useRef } from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
-import { FaFacebookMessenger } from 'react-icons/fa'
 import { BsWhatsapp } from 'react-icons/bs'
-import { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import { FaFacebookMessenger } from 'react-icons/fa'
+import './contact.css'
 
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_izxjzpp', 'template_6l077t8', form.current, 'edVXDrAZkIGb00d1s');
+    emailjs.sendForm('service_7cs3lp3', 'template_6l077t8', form.current, 'edVXDrAZkIGb00d1s');
     e.target.reset();
   };
   return (
